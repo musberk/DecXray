@@ -183,18 +183,20 @@ footer {
 /* main col */
 
 #main-col{
-    float: left;
-    width: 65%;
+    width: 100%;
+    margin-top: 30px;
+
 }
 
 .dark{
     padding: 15px;
     background-color: #35424a;
     color:white;
-    margin-top: 10px;
-    margin-bottom: 10px;
+    margin: auto 20px;
 }
-
+.dark span{
+    font-weight: bold;
+}
 
 
 
@@ -821,17 +823,6 @@ position: relative;
 
 
 
-
-
-
-
-
-
-
-
-
-
-
 .card{
   position: relative;
   left:0;
@@ -965,21 +956,23 @@ div#search-box{
     margin: 0;
     padding: 0;
     height: 30px;
-    width: 20%;
+    width: 30%;
     float: right;
     border: 0;
     border-left: 1px solid #24273B;
     background-color: white;
     border-radius: 0 20px 20px 0;
+    outline: none;
 }
 
 #searchinpt{
-    width: 70%;
+    width: 60%;
     height: 30px;
     border: 0;
     background-color: white;
     margin: 0;
     padding: 0;
+    outline: none;
 }
 #searchbtn{
     width: 10%;

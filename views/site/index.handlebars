@@ -1,43 +1,33 @@
  <section id="sohwcase">
         <div class="container">
             <h1> What is the DecX-ray</h1>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores, blanditiis.</p>
+            <p>It is a poverful radiology Assitant designed to help scientist to diagnose cases with Deeplearing technologies.</p>
         </div>
     </section>
     <section id="newsletter">
         <div class="container">
-            <h1>Project Controbuters</h>
+            <h1>Project Developers</h>
             <!-- <form>
                 <input type="email", placeholder="enter email">
                 <button type="submit"  class="button_1" >Subscribe</button>
             </form> -->
         </div>
     </section>
+    
+    {{!-- Developers Cards --}}
     <section id="boxes">
         <div id="devcont" class="carousel container ">
-            <div class="box carousel-item">
+            {{!-- <div class="box carousel-item">
                 <a href="#"><img class="img_logo" src="./img/developers/mustafaberk.jpg" alt=""></a>
-                <h3>Tübitak</h3>
+                <h3>Mustafa</h3>
                 <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p> 
-            </div>
-            <div class="box carousel-item">
-                <a href="#"><img class="img_logo" src="./img/developers/mustafaberk.jpg" alt=""></a>
-                <h3>Tübitak</h3>
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p> 
-            </div>
-            <div class="box carousel-item">
-                <a href="#"><img class="img_logo" src="./img/developers/mustafaberk.jpg" alt=""></a>
-                <h3>Tübitak</h3>
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p> 
-            </div>
-
-                
+            </div> --}}
         </div>
          
         
     </section>
 
-
+    {{!-- this .js files add developers cards to page in dinamic way. --}}
     <script src="/js/developers.js"></script>
     <script src="/js/UIdevelopers.js"></script>
     <script src="/js/loaddevelopers.js"></script>
@@ -45,6 +35,7 @@
     <script src="https://code.jquery.com/jquery-3.5.0.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
 
+    {{!-- JQuery Event for Project Developers it make a slider and add hover evet. --}}
     <script type="text/javascript">
          $(document).ready(function(){
             $('.carousel').carousel();
